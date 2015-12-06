@@ -1,6 +1,6 @@
 # Flarelight
 
-[![CI Status](http://img.shields.io/travis/Marcus Kida/Flarelight.svg?style=flat)](https://travis-ci.org/Marcus Kida/Flarelight)
+[![CI Status](http://img.shields.io/travis/LocativeHQ/Flarelight.svg?style=flat)](https://travis-ci.org/LocativeHQ/Flarelight)
 [![Version](https://img.shields.io/cocoapods/v/Flarelight.svg?style=flat)](http://cocoapods.org/pods/Flarelight)
 [![License](https://img.shields.io/cocoapods/l/Flarelight.svg?style=flat)](http://cocoapods.org/pods/Flarelight)
 [![Platform](https://img.shields.io/cocoapods/p/Flarelight.svg?style=flat)](http://cocoapods.org/pods/Flarelight)
