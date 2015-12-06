@@ -9,6 +9,10 @@
 import UIKit
 import CoreLocation
 
+enum Trigger: UInt32 {
+    case Enter = 1, Exit = 2
+}
+
 class Flarelight: NSObject, CLLocationManagerDelegate {
     
     // Operation Queues
@@ -61,5 +65,10 @@ class Flarelight: NSObject, CLLocationManagerDelegate {
         //TODO: Implement location found closure
         
         locationManager.stopUpdatingLocation()
+    }
+    
+    //MARK: Background Task
+    func performBackgroundTask(region: CLRegion, trigger: Trigger) {
+        //TODO: Implementation
     }
 }
