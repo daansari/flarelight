@@ -22,7 +22,7 @@ pod "Flarelight"
 
 ## Author
 
-Marcus Kida, mkida@atlassian.com
+Marcus Kida, marcus@kida.io
 
 ## License
 

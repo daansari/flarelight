@@ -1,0 +1,6 @@
+framework module Pods_Flarelight_Example {
+  umbrella header "Pods-Flarelight_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

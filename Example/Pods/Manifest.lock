@@ -1,0 +1,14 @@
+PODS:
+  - Flarelight (0.1.0)
+
+DEPENDENCIES:
+  - Flarelight (from `../`)
+
+EXTERNAL SOURCES:
+  Flarelight:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Flarelight: 586a5ab177a9a25121a22eceeb720bd16a8ead8a
+
+COCOAPODS: 0.39.0

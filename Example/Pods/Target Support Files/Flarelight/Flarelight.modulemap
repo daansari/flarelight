@@ -1,0 +1,6 @@
+framework module Flarelight {
+  umbrella header "Flarelight-umbrella.h"
+
+  export *
+  module * { export * }
+}
