@@ -12,12 +12,14 @@
 		3DDBD3A3EB3DD2C05A276E7575DD1C4C /* Pods-Flarelight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62051C099A957C648197CF122316086F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		77B351A57B218552D7B32F43E269027D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		7B2E65AA474A2B1BE86E359BBF262AB3 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2111E7214C54AF96D3D6E6DC4E0EEC97 /* ReplaceMe.swift */; };
 		87F8B50703A1FEF496DC3C17E27EA1CF /* Flarelight.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BFBF3D70843061683A15A536C5ADE /* Flarelight.bundle */; };
 		8D30E4040462535C805C52733248ABD4 /* Flarelight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C598F923383610A4826CA353FFC055 /* Flarelight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B048B7D02C182D8C8390046DF916A697 /* Flarelight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6424F14B02A02C630F1FF5A516385A63 /* Flarelight-dummy.m */; };
 		B7F24567C0971333DD7AC23AE5046AAB /* Pods-Flarelight_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E1C8F5701FD884BEDA61BA1FCC786A /* Pods-Flarelight_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDC90D904AFBB98D1FEE54EA277D4299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		ECC589D61C13C36100470E84 /* Flarelight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC589D51C13C36100470E84 /* Flarelight.swift */; };
+		ECC589D81C13C44100470E84 /* Geofence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC589D71C13C44100470E84 /* Geofence.swift */; };
+		ECC589DA1C13C46300470E84 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC589D91C13C46300470E84 /* Beacon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +50,6 @@
 		1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flarelight_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1B5B42AE25F009101F1F21E974EB3133 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CB62E04AD239B3EFD083CEDADE4B4A5 /* Pods-Flarelight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flarelight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2111E7214C54AF96D3D6E6DC4E0EEC97 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		2EC9079A54BB226932603613BA5106D1 /* Flarelight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Flarelight.modulemap; sourceTree = "<group>"; };
 		31C598F923383610A4826CA353FFC055 /* Flarelight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flarelight-umbrella.h"; sourceTree = "<group>"; };
 		342E4799608CEC7C737E0BC55932A3B6 /* Pods-Flarelight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flarelight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -77,6 +78,9 @@
 		D379EED702544535D21C263D9337AD38 /* Pods-Flarelight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flarelight_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DD4A27E4D8C95F8290EBBD7CCC3B3E26 /* Pods_Flarelight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flarelight_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02D76C6B8D4CEC1DA3C74701E1849B2 /* Pods-Flarelight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flarelight_Tests-resources.sh"; sourceTree = "<group>"; };
+		ECC589D51C13C36100470E84 /* Flarelight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flarelight.swift; sourceTree = "<group>"; };
+		ECC589D71C13C44100470E84 /* Geofence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geofence.swift; sourceTree = "<group>"; };
+		ECC589D91C13C46300470E84 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 		F55635D914193DFE04707C12C19E3B36 /* Pods-Flarelight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flarelight_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,7 +139,9 @@
 		28C15BD800F2AB6C0AFB6CE166671963 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2111E7214C54AF96D3D6E6DC4E0EEC97 /* ReplaceMe.swift */,
+				ECC589D51C13C36100470E84 /* Flarelight.swift */,
+				ECC589D71C13C44100470E84 /* Geofence.swift */,
+				ECC589D91C13C46300470E84 /* Beacon.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -354,7 +360,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -415,8 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC589D81C13C44100470E84 /* Geofence.swift in Sources */,
+				ECC589DA1C13C46300470E84 /* Beacon.swift in Sources */,
 				B048B7D02C182D8C8390046DF916A697 /* Flarelight-dummy.m in Sources */,
-				7B2E65AA474A2B1BE86E359BBF262AB3 /* ReplaceMe.swift in Sources */,
+				ECC589D61C13C36100470E84 /* Flarelight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,6 +683,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -703,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
