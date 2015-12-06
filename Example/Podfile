@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Flarelight_Example', :exclusive => true do
+  pod "Flarelight", :path => "../"
+end
+
+target 'Flarelight_Tests', :exclusive => true do
+  pod "Flarelight", :path => "../"
+
+  
+end
