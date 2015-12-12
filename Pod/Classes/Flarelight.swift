@@ -44,12 +44,8 @@ class Flarelight: NSObject, CLLocationManagerDelegate {
 
     func cleanup () {
         // Cleanup Geofences
-        for (_, region) in locationManager.monitoredRegions.enumerate() {
-            locationManager.stopMonitoringForRegion(region)
-        }
-        for (_, geofence) in geofences.enumerate() {
-            locationManager.startMonitoringForRegion(regionForGeofence(geofence))
-        }
+        let _ = locationManager.monitoredRegions.map { locationManager.stopMonitoringForRegion($0) }
+        let _ = geofences.map { locationManager.startMonitoringForRegion(regionForGeofence($0)) }
     }
     
     //MARK: LocationManager Delegate
