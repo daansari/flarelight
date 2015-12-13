@@ -18,6 +18,10 @@ class Tests: XCTestCase, FlarelightDelegate {
     }
 
     func flarelight(client: Flarelight, didUpdateLocation: CLLocation?) {
-        //TODO: Implement
+        //TODO: Implement tests
+    }
+    
+    func flarelight(client: Flarelight, didChangeAuthorizationStatus: CLAuthorizationStatus) {
+        //TODO: Implement tests
     }
 }
