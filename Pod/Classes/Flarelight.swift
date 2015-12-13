@@ -15,6 +15,7 @@ enum Trigger: UInt32 {
 
 public protocol FlarelightDelegate {
     func flarelight(client: Flarelight, didUpdateLocation: CLLocation?)
+    func flarelight(client: Flarelight, didChangeAuthorizationStatus: CLAuthorizationStatus)
 }
 
 public class Flarelight: NSObject, CLLocationManagerDelegate {
@@ -63,8 +64,8 @@ public class Flarelight: NSObject, CLLocationManagerDelegate {
     
     //MARK: LocationManager Delegate
     public func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        if let delegate = delegate where status == .Denied {
-            return delegate.flarelight(self, didUpdateLocation: nil)
+        if let delegate = delegate {
+            delegate.flarelight(self, didChangeAuthorizationStatus: status)
         }
     }
     
