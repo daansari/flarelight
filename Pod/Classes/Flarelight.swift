@@ -13,7 +13,11 @@ enum Trigger: UInt32 {
     case Enter = 1, Exit = 2
 }
 
-class Flarelight: NSObject, CLLocationManagerDelegate {
+public protocol FlarelightDelegate {
+    func flarelight(client: Flarelight, didUpdateLocation: CLLocation?)
+}
+
+public class Flarelight: NSObject, CLLocationManagerDelegate {
     
     // Operation Queues
     let mainQueue = NSOperationQueue.mainQueue()
@@ -27,6 +31,15 @@ class Flarelight: NSObject, CLLocationManagerDelegate {
     let geofences = [Geofence]()
     let beacons = [Beacon]()
     
+    // Closures
+    var delegate: FlarelightDelegate?
+    
+    //MARK: Initializers
+    public init(delegate: FlarelightDelegate?) {
+        self.delegate = delegate
+    }
+    
+    //MARK: Internal
     func setup () {
         locationManager.delegate = self
     }
@@ -49,16 +62,18 @@ class Flarelight: NSObject, CLLocationManagerDelegate {
     }
     
     //MARK: LocationManager Delegate
-    func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
-        if status == .Denied {
-            //TODO: Implement denial of location authorization
+    public func locationManager(manager: CLLocationManager, didChangeAuthorizationStatus status: CLAuthorizationStatus) {
+        if let delegate = delegate where status == .Denied {
+            return delegate.flarelight(self, didUpdateLocation: nil)
         }
     }
     
-    func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    public func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         currentLocation = locations.first
         
-        //TODO: Implement location found closure
+        if let delegate = delegate {
+            delegate.flarelight(self, didUpdateLocation: currentLocation)
+        }
         
         locationManager.stopUpdatingLocation()
     }
