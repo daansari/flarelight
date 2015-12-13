@@ -80,6 +80,12 @@ public class Flarelight: NSObject, CLLocationManagerDelegate {
     
     //MARK: Background Task
     func performBackgroundTask(region: CLRegion, trigger: Trigger) {
-        //TODO: Implementation
+        dispatchQueue.addOperation(BackgroundOperation(block: { () -> Void in
+            self.performWebhook(region, trigger: trigger)
+        }))
+    }
+    
+    func performWebhook(region: CLRegion, trigger: Trigger) {
+        //TODO: Implement Webhook
     }
 }

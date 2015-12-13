@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07670BDD1C1D29E2000F19CE /* BackgroundOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07670BDC1C1D29E2000F19CE /* BackgroundOperation.swift */; };
 		3351423AE860A2AD797B2E0A67704422 /* Pods-Flarelight_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F328E0AA70AD34D98807A2D731465 /* Pods-Flarelight_Example-dummy.m */; };
 		3A5A2B331BC6D311C5475C7EB0D9C50A /* Pods-Flarelight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55635D914193DFE04707C12C19E3B36 /* Pods-Flarelight_Tests-dummy.m */; };
 		3DDBD3A3EB3DD2C05A276E7575DD1C4C /* Pods-Flarelight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07670BDC1C1D29E2000F19CE /* BackgroundOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundOperation.swift; sourceTree = "<group>"; };
 		1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flarelight_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1B5B42AE25F009101F1F21E974EB3133 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CB62E04AD239B3EFD083CEDADE4B4A5 /* Pods-Flarelight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flarelight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				ECC589D51C13C36100470E84 /* Flarelight.swift */,
 				ECC589D71C13C44100470E84 /* Geofence.swift */,
 				ECC589D91C13C46300470E84 /* Beacon.swift */,
+				07670BDC1C1D29E2000F19CE /* BackgroundOperation.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECC589D81C13C44100470E84 /* Geofence.swift in Sources */,
+				07670BDD1C1D29E2000F19CE /* BackgroundOperation.swift in Sources */,
 				ECC589DA1C13C46300470E84 /* Beacon.swift in Sources */,
 				B048B7D02C182D8C8390046DF916A697 /* Flarelight-dummy.m in Sources */,
 				ECC589D61C13C36100470E84 /* Flarelight.swift in Sources */,
