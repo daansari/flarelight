@@ -9,5 +9,9 @@ language: objective-c
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/Flarelight.xcworkspace -scheme Flarelight-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
-- pod lib lint
+# - set -o pipefail && xcodebuild test -workspace Example/Flarelight.xcworkspace -scheme Flarelight-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO | xcpretty
+# - pod lib lint
+  - xctool -workspace Example/Flarelight.xcworkspace -scheme Flarelight-Example -destination name="iPhone 6s" -sdk iphonesimulator CODE_SIGN_ENTITLEMENTS="" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES build test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
