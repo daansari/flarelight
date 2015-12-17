@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D6855D1516BB7B27D589A3F3'
+               BlueprintIdentifier = 'F18A068092859A5789BA9E4A'
                BlueprintName = 'Flarelight'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Flarelight.framework'>

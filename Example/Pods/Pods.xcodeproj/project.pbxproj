@@ -7,126 +7,210 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07670BDD1C1D29E2000F19CE /* BackgroundOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07670BDC1C1D29E2000F19CE /* BackgroundOperation.swift */; };
-		3351423AE860A2AD797B2E0A67704422 /* Pods-Flarelight_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F328E0AA70AD34D98807A2D731465 /* Pods-Flarelight_Example-dummy.m */; };
-		3A5A2B331BC6D311C5475C7EB0D9C50A /* Pods-Flarelight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55635D914193DFE04707C12C19E3B36 /* Pods-Flarelight_Tests-dummy.m */; };
-		3DDBD3A3EB3DD2C05A276E7575DD1C4C /* Pods-Flarelight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62051C099A957C648197CF122316086F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		77B351A57B218552D7B32F43E269027D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		87F8B50703A1FEF496DC3C17E27EA1CF /* Flarelight.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7D6BFBF3D70843061683A15A536C5ADE /* Flarelight.bundle */; };
-		8D30E4040462535C805C52733248ABD4 /* Flarelight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C598F923383610A4826CA353FFC055 /* Flarelight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B048B7D02C182D8C8390046DF916A697 /* Flarelight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6424F14B02A02C630F1FF5A516385A63 /* Flarelight-dummy.m */; };
-		B7F24567C0971333DD7AC23AE5046AAB /* Pods-Flarelight_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E1C8F5701FD884BEDA61BA1FCC786A /* Pods-Flarelight_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDC90D904AFBB98D1FEE54EA277D4299 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		ECC589D61C13C36100470E84 /* Flarelight.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC589D51C13C36100470E84 /* Flarelight.swift */; };
-		ECC589D81C13C44100470E84 /* Geofence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC589D71C13C44100470E84 /* Geofence.swift */; };
-		ECC589DA1C13C46300470E84 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC589D91C13C46300470E84 /* Beacon.swift */; };
+		02D361CA326EDAAEAD7393F279ED1DF2 /* BackgroundOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590A1AF7539E7F0BE51E2C7B87A1F3A /* BackgroundOperation.swift */; };
+		03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */; };
+		0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */; };
+		0ED0909DFBD057A60FD33BD377CE3F28 /* Flarelight.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C90DCD2487BBD011A1035A47BD55C1C5 /* Flarelight.bundle */; };
+		1100BE8BD82F6645EF6E4D5F718F48AF /* Flarelight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BDAA7601E8A83E29DAF1D477437E22 /* Flarelight.swift */; };
+		13376CAA42AF901477DB85A05F942434 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */; };
+		2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A4E9FD5AD2D223FC9CD67242055BC9E /* Pods-Flarelight_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F55635D914193DFE04707C12C19E3B36 /* Pods-Flarelight_Tests-dummy.m */; };
+		3DFAB802785E14E7A5E79C2538FDAAC2 /* Flarelight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C598F923383610A4826CA353FFC055 /* Flarelight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		470D7EED60D12F1870119165DC4ECDD0 /* Pods-Flarelight_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 906F328E0AA70AD34D98807A2D731465 /* Pods-Flarelight_Example-dummy.m */; };
+		4890238FB2777F21C320964850253A4A /* Pods-Flarelight_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB41C464EC1D2472CC313F9C96ECAAF /* Pods-Flarelight_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92E1C8F5701FD884BEDA61BA1FCC786A /* Pods-Flarelight_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */; };
+		4F9C4DD5DA0B0A5E4C5B3CD6BD37C2E6 /* Geofence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D6372CAEFBE7A7CAE7D3BC0379C6 /* Geofence.swift */; };
+		70551C677E439B7D5C911B993BE84CE1 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2292566CF358F576ECAE13C7D9157065 /* Beacon.swift */; };
+		7FB8B1092159D60F9A6FBAA8CC753BF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */; };
+		82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */; };
+		8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */; };
+		96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5241F56B5C8C48BD734958D586267D1A /* Manager.swift */; };
+		A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */; };
+		AFC8747F5A39C374E4BB413F7B94A4D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */; };
+		B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */; };
+		C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779B19103BE8402A434ED95F67573911 /* Validation.swift */; };
+		D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */; };
+		D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83957AB2EE778B52399CC4C903539BD0 /* Error.swift */; };
+		F2B12399AB566E180DA3C0B22870B19B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */; };
+		F4C9DC9C458D83A124CC990F7E605AB9 /* Flarelight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6424F14B02A02C630F1FF5A516385A63 /* Flarelight-dummy.m */; };
+		FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */; };
+		FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		033BD9B16A9133829CE460E06952887C /* PBXContainerItemProxy */ = {
+		2A215C17CD3FD954D02EE9950EFEED9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 40E0140F8E1A8A804F479C9FBAC00EF5;
+			remoteGlobalIDString = 83EAA7DF56B6BAA7504123F409B38698;
 			remoteInfo = "Flarelight-Flarelight";
 		};
-		198D676274457953750E977BBC9E3346 /* PBXContainerItemProxy */ = {
+		3260AB9F76D4EB3707A0D47BA8230F87 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA2B4FB59011CFABBFE8394B8E2B70C5;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		A4525980AEDF35FCDAD9F87B843EB6A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		AEB45528FF8848AD8A9CAA3B9C81944B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 432ECC54282C84882B482CCB4CF227FC;
+			remoteInfo = Alamofire;
+		};
+		DE54230699C8CE23FE259D89A7D4C54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C18BDA6FA0B3330321F5C526DFE6225;
 			remoteInfo = Flarelight;
 		};
-		FCBA7894C928E521706E7DA3822FE0A5 /* PBXContainerItemProxy */ = {
+		ED877942F52E57051267BC7EB6570C4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DA2B4FB59011CFABBFE8394B8E2B70C5;
+			remoteGlobalIDString = 0C18BDA6FA0B3330321F5C526DFE6225;
 			remoteInfo = Flarelight;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07670BDC1C1D29E2000F19CE /* BackgroundOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundOperation.swift; sourceTree = "<group>"; };
+		10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		1B4C46E3D1DBA9F1234A87F7529FF9C8 /* Pods-Flarelight_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flarelight_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1B5B42AE25F009101F1F21E974EB3133 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CB62E04AD239B3EFD083CEDADE4B4A5 /* Pods-Flarelight_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flarelight_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		2292566CF358F576ECAE13C7D9157065 /* Beacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		2EC9079A54BB226932603613BA5106D1 /* Flarelight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Flarelight.modulemap; sourceTree = "<group>"; };
 		31C598F923383610A4826CA353FFC055 /* Flarelight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flarelight-umbrella.h"; sourceTree = "<group>"; };
 		342E4799608CEC7C737E0BC55932A3B6 /* Pods-Flarelight_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flarelight_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		46ACB2131A0D876DEAA3A8AD1DE71F13 /* Pods-Flarelight_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Flarelight_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		47DF79EF51A5B19B9179B5AC385A70FC /* Flarelight-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flarelight-prefix.pch"; sourceTree = "<group>"; };
+		4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5241F56B5C8C48BD734958D586267D1A /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
 		525B814EEB15EC93166D829BB719E7A0 /* Pods-Flarelight_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flarelight_Example-frameworks.sh"; sourceTree = "<group>"; };
+		52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flarelight.xcconfig; sourceTree = "<group>"; };
+		5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		5890016F85C7F0EDD85E7351B74A84A7 /* Pods-Flarelight_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flarelight_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5E53BF5A61CAF6972C5CDD2C3EE6C003 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6424F14B02A02C630F1FF5A516385A63 /* Flarelight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flarelight-dummy.m"; sourceTree = "<group>"; };
 		658B4C7F20157C6E1455BAEAC624EF00 /* Pods-Flarelight_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flarelight_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6D3E3DF225D4AF54A3C0C3C9B63BFAF3 /* Flarelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flarelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B801F8E6F6275635B7F69FD9FB9C203 /* Pods_Flarelight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flarelight_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D6BFBF3D70843061683A15A536C5ADE /* Flarelight.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flarelight.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7590A1AF7539E7F0BE51E2C7B87A1F3A /* BackgroundOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BackgroundOperation.swift; sourceTree = "<group>"; };
+		779B19103BE8402A434ED95F67573911 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		83957AB2EE778B52399CC4C903539BD0 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
 		841C6DE601C84C472AF950420E775588 /* Pods-Flarelight_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Flarelight_Example.modulemap"; sourceTree = "<group>"; };
 		884E79E6A02CC701CEDB8353334B8E76 /* Pods-Flarelight_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Flarelight_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		8CAEA53C42F06F999F953B2B9281A1ED /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		8E00A9078DF18ECEAEBD4E9BAC9D331F /* Pods-Flarelight_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flarelight_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8EEEAA7108902139750CB5E824D8A13D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		906F328E0AA70AD34D98807A2D731465 /* Pods-Flarelight_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flarelight_Example-dummy.m"; sourceTree = "<group>"; };
+		91D4D687354CA896BB4CE5B87A180090 /* Pods_Flarelight_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flarelight_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E1C8F5701FD884BEDA61BA1FCC786A /* Pods-Flarelight_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Flarelight_Example-umbrella.h"; sourceTree = "<group>"; };
+		948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A9BC416B649C6C78CB7574999FECD5BC /* Pods-Flarelight_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flarelight_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
 		AFD177C9B2803D1907706A51432B092B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2E2D6372CAEFBE7A7CAE7D3BC0379C6 /* Geofence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Geofence.swift; sourceTree = "<group>"; };
 		C55A816F2E8C971CC58F7BBFCB2E5FEB /* Pods-Flarelight_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flarelight_Example-resources.sh"; sourceTree = "<group>"; };
 		C5E78FD5C1FB86BE47940A26217A8D4B /* Pods-Flarelight_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Flarelight_Tests.modulemap"; sourceTree = "<group>"; };
+		C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		C90DCD2487BBD011A1035A47BD55C1C5 /* Flarelight.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flarelight.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D379EED702544535D21C263D9337AD38 /* Pods-Flarelight_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Flarelight_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD4A27E4D8C95F8290EBBD7CCC3B3E26 /* Pods_Flarelight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flarelight_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA25D2BCB925917F713FB07C9EA5CA5C /* Flarelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flarelight.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02D76C6B8D4CEC1DA3C74701E1849B2 /* Pods-Flarelight_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Flarelight_Tests-resources.sh"; sourceTree = "<group>"; };
-		ECC589D51C13C36100470E84 /* Flarelight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flarelight.swift; sourceTree = "<group>"; };
-		ECC589D71C13C44100470E84 /* Geofence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geofence.swift; sourceTree = "<group>"; };
-		ECC589D91C13C46300470E84 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		E1BDAA7601E8A83E29DAF1D477437E22 /* Flarelight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Flarelight.swift; sourceTree = "<group>"; };
+		E6D51E88CF06503F74AC8F5ECD5A209B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F3A384D39379B3E5E6CF2C981DF992A7 /* Pods_Flarelight_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flarelight_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55635D914193DFE04707C12C19E3B36 /* Pods-Flarelight_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Flarelight_Tests-dummy.m"; sourceTree = "<group>"; };
+		F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A2A041F59F1483B3062CB2C9D9FAD5F /* Frameworks */ = {
+		0107720031540CB92502BC910E293C8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB8B1092159D60F9A6FBAA8CC753BF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70228CC83299F2FB59705975C121E1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13376CAA42AF901477DB85A05F942434 /* Alamofire.framework in Frameworks */,
+				AFC8747F5A39C374E4BB413F7B94A4D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CE9D6BF524371A85093FF98FC1A66A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19D05AE902CDEC4B289F074165F5B192 /* Frameworks */ = {
+		A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77B351A57B218552D7B32F43E269027D /* Foundation.framework in Frameworks */,
+				96D99D0C2472535A169DED65CB231CD7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E726CBCF5E322F03F5915A541621A75 /* Frameworks */ = {
+		C4C24BCC6B840E5B570C0BB8FC1A0DBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62051C099A957C648197CF122316086F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA130DC3BDE37C1972DD6E2B5BBF8892 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DDC90D904AFBB98D1FEE54EA277D4299 /* Foundation.framework in Frameworks */,
+				F2B12399AB566E180DA3C0B22870B19B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AF36747052149A6F42D5676F838C690 /* Pod */ = {
+		09192E6B9C45ACAB5568261F45FA3D88 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				28C15BD800F2AB6C0AFB6CE166671963 /* Classes */,
+				23D4D8DBF3D77B1F970DB9DF6C963A84 /* Alamofire.swift */,
+				ADA14379DE2012C9EFB2B9C3A3A39AB4 /* Download.swift */,
+				83957AB2EE778B52399CC4C903539BD0 /* Error.swift */,
+				5241F56B5C8C48BD734958D586267D1A /* Manager.swift */,
+				10653C142FFDF1986227894BF0317944 /* MultipartFormData.swift */,
+				5465E2051CE332BA7D4E0595F9B44718 /* ParameterEncoding.swift */,
+				FA23887509C9FF173ECBE0A470EDD527 /* Request.swift */,
+				8AE82608C8C2A46981A07D7E422BEB45 /* Response.swift */,
+				F5EBB70A7BA5F9037CD2DA409E148A73 /* ResponseSerialization.swift */,
+				7835749D1C4FA403E4BB17A0C787EDCA /* Result.swift */,
+				52836A3E223CCB5C120D4BE7D37AC1BF /* ServerTrustPolicy.swift */,
+				C89117FC38D94C9DF36CA21E3C96EEB7 /* Stream.swift */,
+				948996616B0A38BD6FE8C4CB309CC964 /* Upload.swift */,
+				779B19103BE8402A434ED95F67573911 /* Validation.swift */,
+				405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */,
 			);
-			path = Pod;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 		17FB24EA5DE7A2E23FE7123860259B2A /* Targets Support Files */ = {
@@ -138,15 +222,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		28C15BD800F2AB6C0AFB6CE166671963 /* Classes */ = {
+		20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ECC589D51C13C36100470E84 /* Flarelight.swift */,
-				ECC589D71C13C44100470E84 /* Geofence.swift */,
-				ECC589D91C13C46300470E84 /* Beacon.swift */,
-				07670BDC1C1D29E2000F19CE /* BackgroundOperation.swift */,
+				09192E6B9C45ACAB5568261F45FA3D88 /* Alamofire */,
 			);
-			path = Classes;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25308A143ED5AA82593A7E1D950849C4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9EFCE8A3DC08536A2B19894C1FF3E86D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		405A7C3030F6D3BDE3978D6D558FDF7F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				21FA4AD1EF77337F9C8F2AD871ED371D /* Alamofire.modulemap */,
+				7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */,
+				8D1C843C58F0C2DFE4522F24897D8CCE /* Alamofire-dummy.m */,
+				E6D51E88CF06503F74AC8F5ECD5A209B /* Alamofire-prefix.pch */,
+				4FC4583A4BD15196E6859EA5E990AD3F /* Alamofire-umbrella.h */,
+				5E53BF5A61CAF6972C5CDD2C3EE6C003 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		45EF1F58B0F8CFEBC398665D0ED416E5 /* Support Files */ = {
@@ -181,15 +284,24 @@
 			path = "Target Support Files/Pods-Flarelight_Tests";
 			sourceTree = "<group>";
 		};
-		7D33465E71B2F69126D2F8A212C5EB6F /* Products */ = {
+		59B91F212518421F271EBA85D5530651 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D6BFBF3D70843061683A15A536C5ADE /* Flarelight.bundle */,
-				6D3E3DF225D4AF54A3C0C3C9B63BFAF3 /* Flarelight.framework */,
-				DD4A27E4D8C95F8290EBBD7CCC3B3E26 /* Pods_Flarelight_Example.framework */,
-				7B801F8E6F6275635B7F69FD9FB9C203 /* Pods_Flarelight_Tests.framework */,
+				706C7AFFE37BA158C3553250F4B5FAED /* Alamofire.framework */,
+				25308A143ED5AA82593A7E1D950849C4 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B3971016FC5A5BDD018542D6C430DB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7590A1AF7539E7F0BE51E2C7B87A1F3A /* BackgroundOperation.swift */,
+				2292566CF358F576ECAE13C7D9157065 /* Beacon.swift */,
+				E1BDAA7601E8A83E29DAF1D477437E22 /* Flarelight.swift */,
+				C2E2D6372CAEFBE7A7CAE7D3BC0379C6 /* Geofence.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -197,8 +309,9 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				C9937F13CF25525B8F7A03CA6242E734 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				7D33465E71B2F69126D2F8A212C5EB6F /* Products */,
+				59B91F212518421F271EBA85D5530651 /* Frameworks */,
+				20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */,
+				D6109844BE1E90AA795F9D75874CF8ED /* Products */,
 				17FB24EA5DE7A2E23FE7123860259B2A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -206,7 +319,7 @@
 		A5C8E5F0DC9583E0B839C30E248CEED9 /* Flarelight */ = {
 			isa = PBXGroup;
 			children = (
-				0AF36747052149A6F42D5676F838C690 /* Pod */,
+				DB4D0D6AD2E512049413C068C38EA019 /* Pod */,
 				45EF1F58B0F8CFEBC398665D0ED416E5 /* Support Files */,
 			);
 			name = Flarelight;
@@ -231,22 +344,6 @@
 			path = "Target Support Files/Pods-Flarelight_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C9937F13CF25525B8F7A03CA6242E734 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,61 +352,108 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		D6109844BE1E90AA795F9D75874CF8ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CAEA53C42F06F999F953B2B9281A1ED /* Alamofire.framework */,
+				C90DCD2487BBD011A1035A47BD55C1C5 /* Flarelight.bundle */,
+				DA25D2BCB925917F713FB07C9EA5CA5C /* Flarelight.framework */,
+				F3A384D39379B3E5E6CF2C981DF992A7 /* Pods_Flarelight_Example.framework */,
+				91D4D687354CA896BB4CE5B87A180090 /* Pods_Flarelight_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4D0D6AD2E512049413C068C38EA019 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7B3971016FC5A5BDD018542D6C430DB5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9210670B7CFE066045D2E3759FC49D16 /* Headers */ = {
+		44546D17A3D344AC9C410F5175E58D00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F24567C0971333DD7AC23AE5046AAB /* Pods-Flarelight_Example-umbrella.h in Headers */,
+				4CB41C464EC1D2472CC313F9C96ECAAF /* Pods-Flarelight_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		930E082CEF9396A808D078C317371055 /* Headers */ = {
+		5F7B61281F714E2A64A51E80A2C9C062 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D30E4040462535C805C52733248ABD4 /* Flarelight-umbrella.h in Headers */,
+				2C5450AC69398958CF6F7539EF7D99E5 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBE0A0B8EF5A80BF489FF2C8FEDD0FAF /* Headers */ = {
+		AAF021D7CFCE8557F85123B83DC59B9F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDBD3A3EB3DD2C05A276E7575DD1C4C /* Pods-Flarelight_Tests-umbrella.h in Headers */,
+				3DFAB802785E14E7A5E79C2538FDAAC2 /* Flarelight-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAFE97099632348794B910C35CEFE7F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4890238FB2777F21C320964850253A4A /* Pods-Flarelight_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		33C356F0E53C278F00F3817100ED82E6 /* Pods-Flarelight_Example */ = {
+		0C18BDA6FA0B3330321F5C526DFE6225 /* Flarelight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76093A14C6AC3A473723D97A2DFD54D4 /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Example" */;
+			buildConfigurationList = 4ECE11CB42972E5C6D9477FBD1E254BA /* Build configuration list for PBXNativeTarget "Flarelight" */;
 			buildPhases = (
-				F132CE5198C9B0A683A3DF9187101D96 /* Sources */,
-				19D05AE902CDEC4B289F074165F5B192 /* Frameworks */,
-				9210670B7CFE066045D2E3759FC49D16 /* Headers */,
+				EE82444B51F584CAB46AF7BB971B3A8C /* Sources */,
+				70228CC83299F2FB59705975C121E1E6 /* Frameworks */,
+				4B5D3752C120C84FFDA5BFA91A084A32 /* Resources */,
+				AAF021D7CFCE8557F85123B83DC59B9F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				621D7A5DB1171560CF715958E1807DE8 /* PBXTargetDependency */,
+				74D28AF0684B4BD293CA66F5805C3F9F /* PBXTargetDependency */,
+				04DB76A0F0A36F044EC6ED33B21280B0 /* PBXTargetDependency */,
 			);
-			name = "Pods-Flarelight_Example";
-			productName = "Pods-Flarelight_Example";
-			productReference = DD4A27E4D8C95F8290EBBD7CCC3B3E26 /* Pods_Flarelight_Example.framework */;
+			name = Flarelight;
+			productName = Flarelight;
+			productReference = DA25D2BCB925917F713FB07C9EA5CA5C /* Flarelight.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		40E0140F8E1A8A804F479C9FBAC00EF5 /* Flarelight-Flarelight */ = {
+		432ECC54282C84882B482CCB4CF227FC /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A959EBF4D078B9BEB9B1CB2DF2408451 /* Build configuration list for PBXNativeTarget "Flarelight-Flarelight" */;
+			buildConfigurationList = 8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				55EC15767578DE15193FE5335DA61A28 /* Sources */,
-				0A2A041F59F1483B3062CB2C9D9FAD5F /* Frameworks */,
-				B3212DEB3BCD385B5F7B7FF9F92D8108 /* Resources */,
+				EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */,
+				A5AE1D340C4A0691EC28EEA8241C9FCD /* Frameworks */,
+				5F7B61281F714E2A64A51E80A2C9C062 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 8CAEA53C42F06F999F953B2B9281A1ED /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83EAA7DF56B6BAA7504123F409B38698 /* Flarelight-Flarelight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C6BD46666E229E58EB4DE87C682EC3 /* Build configuration list for PBXNativeTarget "Flarelight-Flarelight" */;
+			buildPhases = (
+				D00806D558AFD2059526F33F36BEBB9A /* Sources */,
+				99CE9D6BF524371A85093FF98FC1A66A /* Frameworks */,
+				21651172B2FE288C8AC7E16274F6D93F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,44 +461,45 @@
 			);
 			name = "Flarelight-Flarelight";
 			productName = "Flarelight-Flarelight";
-			productReference = 7D6BFBF3D70843061683A15A536C5ADE /* Flarelight.bundle */;
+			productReference = C90DCD2487BBD011A1035A47BD55C1C5 /* Flarelight.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		774232FF0616E1994AA959D1AAF52CCA /* Pods-Flarelight_Tests */ = {
+		90D41A68B9BDDE083DBC31D65A7E4712 /* Pods-Flarelight_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6951460D57E9E4571B16D8C14822761 /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Tests" */;
+			buildConfigurationList = 124F07CE796F90688B7B987786B7EAEA /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Tests" */;
 			buildPhases = (
-				0F0A91C2F334E69FD634DAEAA70F1E42 /* Sources */,
-				BA130DC3BDE37C1972DD6E2B5BBF8892 /* Frameworks */,
-				DBE0A0B8EF5A80BF489FF2C8FEDD0FAF /* Headers */,
+				8A49A9DC28C71E70BFBE7E25D7DD49B2 /* Sources */,
+				0107720031540CB92502BC910E293C8C /* Frameworks */,
+				EAFE97099632348794B910C35CEFE7F0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC94375909D15E157FF7219468975464 /* PBXTargetDependency */,
+				E848B707E7262E322D93B1B17311F1E1 /* PBXTargetDependency */,
+				01B5C484AEC5C651EDDC0928469FE42A /* PBXTargetDependency */,
 			);
 			name = "Pods-Flarelight_Tests";
 			productName = "Pods-Flarelight_Tests";
-			productReference = 7B801F8E6F6275635B7F69FD9FB9C203 /* Pods_Flarelight_Tests.framework */;
+			productReference = 91D4D687354CA896BB4CE5B87A180090 /* Pods_Flarelight_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA2B4FB59011CFABBFE8394B8E2B70C5 /* Flarelight */ = {
+		FD29468F99791943A166F2CD6FC0C9F3 /* Pods-Flarelight_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3794A6AA4BA71B60C222B9B90F6605D0 /* Build configuration list for PBXNativeTarget "Flarelight" */;
+			buildConfigurationList = 0514ADEEE0CE94BDE945A7539677F615 /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Example" */;
 			buildPhases = (
-				D18AA33F5E4503AFA36419C93748195A /* Sources */,
-				5E726CBCF5E322F03F5915A541621A75 /* Frameworks */,
-				C9FC047768EDF54507459BD444491D68 /* Resources */,
-				930E082CEF9396A808D078C317371055 /* Headers */,
+				92318A98E35793F16CE040898AD6CF1C /* Sources */,
+				C4C24BCC6B840E5B570C0BB8FC1A0DBD /* Frameworks */,
+				44546D17A3D344AC9C410F5175E58D00 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64EA1A0C291024C763265790A87BA682 /* PBXTargetDependency */,
+				31ACE1023D3ED3B76B34A4C8FD04C8D6 /* PBXTargetDependency */,
+				D2976F635041B4264CFD026C29D36DAF /* PBXTargetDependency */,
 			);
-			name = Flarelight;
-			productName = Flarelight;
-			productReference = 6D3E3DF225D4AF54A3C0C3C9B63BFAF3 /* Flarelight.framework */;
+			name = "Pods-Flarelight_Example";
+			productName = "Pods-Flarelight_Example";
+			productReference = F3A384D39379B3E5E6CF2C981DF992A7 /* Pods_Flarelight_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -363,7 +508,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -374,92 +519,133 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7D33465E71B2F69126D2F8A212C5EB6F /* Products */;
+			productRefGroup = D6109844BE1E90AA795F9D75874CF8ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA2B4FB59011CFABBFE8394B8E2B70C5 /* Flarelight */,
-				40E0140F8E1A8A804F479C9FBAC00EF5 /* Flarelight-Flarelight */,
-				33C356F0E53C278F00F3817100ED82E6 /* Pods-Flarelight_Example */,
-				774232FF0616E1994AA959D1AAF52CCA /* Pods-Flarelight_Tests */,
+				432ECC54282C84882B482CCB4CF227FC /* Alamofire */,
+				0C18BDA6FA0B3330321F5C526DFE6225 /* Flarelight */,
+				83EAA7DF56B6BAA7504123F409B38698 /* Flarelight-Flarelight */,
+				FD29468F99791943A166F2CD6FC0C9F3 /* Pods-Flarelight_Example */,
+				90D41A68B9BDDE083DBC31D65A7E4712 /* Pods-Flarelight_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B3212DEB3BCD385B5F7B7FF9F92D8108 /* Resources */ = {
+		21651172B2FE288C8AC7E16274F6D93F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9FC047768EDF54507459BD444491D68 /* Resources */ = {
+		4B5D3752C120C84FFDA5BFA91A084A32 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87F8B50703A1FEF496DC3C17E27EA1CF /* Flarelight.bundle in Resources */,
+				0ED0909DFBD057A60FD33BD377CE3F28 /* Flarelight.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0F0A91C2F334E69FD634DAEAA70F1E42 /* Sources */ = {
+		8A49A9DC28C71E70BFBE7E25D7DD49B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A5A2B331BC6D311C5475C7EB0D9C50A /* Pods-Flarelight_Tests-dummy.m in Sources */,
+				3A4E9FD5AD2D223FC9CD67242055BC9E /* Pods-Flarelight_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55EC15767578DE15193FE5335DA61A28 /* Sources */ = {
+		92318A98E35793F16CE040898AD6CF1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470D7EED60D12F1870119165DC4ECDD0 /* Pods-Flarelight_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00806D558AFD2059526F33F36BEBB9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D18AA33F5E4503AFA36419C93748195A /* Sources */ = {
+		EE82444B51F584CAB46AF7BB971B3A8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECC589D81C13C44100470E84 /* Geofence.swift in Sources */,
-				07670BDD1C1D29E2000F19CE /* BackgroundOperation.swift in Sources */,
-				ECC589DA1C13C46300470E84 /* Beacon.swift in Sources */,
-				B048B7D02C182D8C8390046DF916A697 /* Flarelight-dummy.m in Sources */,
-				ECC589D61C13C36100470E84 /* Flarelight.swift in Sources */,
+				02D361CA326EDAAEAD7393F279ED1DF2 /* BackgroundOperation.swift in Sources */,
+				70551C677E439B7D5C911B993BE84CE1 /* Beacon.swift in Sources */,
+				F4C9DC9C458D83A124CC990F7E605AB9 /* Flarelight-dummy.m in Sources */,
+				1100BE8BD82F6645EF6E4D5F718F48AF /* Flarelight.swift in Sources */,
+				4F9C4DD5DA0B0A5E4C5B3CD6BD37C2E6 /* Geofence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F132CE5198C9B0A683A3DF9187101D96 /* Sources */ = {
+		EF659EFF40D426A3A32A82CDB98CC6EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3351423AE860A2AD797B2E0A67704422 /* Pods-Flarelight_Example-dummy.m in Sources */,
+				B6D2DC3E3DA44CD382B9B425F40E11C1 /* Alamofire-dummy.m in Sources */,
+				B0FB4B01682814B9E3D32F9DC4A5E762 /* Alamofire.swift in Sources */,
+				A3505FA2FB3067D53847AD288AC04F03 /* Download.swift in Sources */,
+				D75CA395D510E08C404E55F5BDAE55CE /* Error.swift in Sources */,
+				A2C172FE407C0BC3478ADCA91A6C9CEC /* Manager.swift in Sources */,
+				8399DBEE3E2D98EB1F466132E476F4D9 /* MultipartFormData.swift in Sources */,
+				4DE5FCC41D100B113B6645EA64410F16 /* ParameterEncoding.swift in Sources */,
+				FC14480CECE872865A9C6E584F886DA3 /* Request.swift in Sources */,
+				03F494989CC1A8857B68A317D5D6860F /* Response.swift in Sources */,
+				D21B7325B3642887BFBE977E021F2D26 /* ResponseSerialization.swift in Sources */,
+				82971968CBDAB224212EEB4607C9FB8D /* Result.swift in Sources */,
+				80F496237530D382A045A29654D8C11C /* ServerTrustPolicy.swift in Sources */,
+				FEF0D7653948988B804226129471C1EC /* Stream.swift in Sources */,
+				0681ADC8BAE2C3185F13487BAAB4D9DD /* Upload.swift in Sources */,
+				C75519F0450166A6F28126ECC7664E9C /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		621D7A5DB1171560CF715958E1807DE8 /* PBXTargetDependency */ = {
+		01B5C484AEC5C651EDDC0928469FE42A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flarelight;
-			target = DA2B4FB59011CFABBFE8394B8E2B70C5 /* Flarelight */;
-			targetProxy = FCBA7894C928E521706E7DA3822FE0A5 /* PBXContainerItemProxy */;
+			target = 0C18BDA6FA0B3330321F5C526DFE6225 /* Flarelight */;
+			targetProxy = ED877942F52E57051267BC7EB6570C4D /* PBXContainerItemProxy */;
 		};
-		64EA1A0C291024C763265790A87BA682 /* PBXTargetDependency */ = {
+		04DB76A0F0A36F044EC6ED33B21280B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Flarelight-Flarelight";
-			target = 40E0140F8E1A8A804F479C9FBAC00EF5 /* Flarelight-Flarelight */;
-			targetProxy = 033BD9B16A9133829CE460E06952887C /* PBXContainerItemProxy */;
+			target = 83EAA7DF56B6BAA7504123F409B38698 /* Flarelight-Flarelight */;
+			targetProxy = 2A215C17CD3FD954D02EE9950EFEED9A /* PBXContainerItemProxy */;
 		};
-		BC94375909D15E157FF7219468975464 /* PBXTargetDependency */ = {
+		31ACE1023D3ED3B76B34A4C8FD04C8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = A4525980AEDF35FCDAD9F87B843EB6A9 /* PBXContainerItemProxy */;
+		};
+		74D28AF0684B4BD293CA66F5805C3F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = AEB45528FF8848AD8A9CAA3B9C81944B /* PBXContainerItemProxy */;
+		};
+		D2976F635041B4264CFD026C29D36DAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Flarelight;
-			target = DA2B4FB59011CFABBFE8394B8E2B70C5 /* Flarelight */;
-			targetProxy = 198D676274457953750E977BBC9E3346 /* PBXContainerItemProxy */;
+			target = 0C18BDA6FA0B3330321F5C526DFE6225 /* Flarelight */;
+			targetProxy = DE54230699C8CE23FE259D89A7D4C54A /* PBXContainerItemProxy */;
+		};
+		E848B707E7262E322D93B1B17311F1E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 432ECC54282C84882B482CCB4CF227FC /* Alamofire */;
+			targetProxy = 3260AB9F76D4EB3707A0D47BA8230F87 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -498,9 +684,21 @@
 			};
 			name = Release;
 		};
-		3BB5B23DCE247017638486DF19219930 /* Debug */ = {
+		256ABE7AA72779E60F69E2FFA345FF00 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E00A9078DF18ECEAEBD4E9BAC9D331F /* Pods-Flarelight_Tests.debug.xcconfig */;
+			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Flarelight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		40C6DC4C03CFC0FFAECEBC484D7E103B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D379EED702544535D21C263D9337AD38 /* Pods-Flarelight_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,17 +707,44 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Flarelight_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Flarelight_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flarelight_Tests/Pods-Flarelight_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flarelight_Example/Pods-Flarelight_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Flarelight_Tests;
+				PRODUCT_NAME = Pods_Flarelight_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51347C6CC43E058148BBA2D2833EC82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -568,7 +793,131 @@
 			};
 			name = Debug;
 		};
-		5804BF92B9E90037E9A16CD89BEFB959 /* Debug */ = {
+		5BF57950DD4DF1C56575F3577B763895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 658B4C7F20157C6E1455BAEAC624EF00 /* Pods-Flarelight_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Flarelight_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Flarelight_Tests/Pods-Flarelight_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Flarelight_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DEB35084A93C1F616AF07F550EF582B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flarelight/Flarelight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flarelight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flarelight/Flarelight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Flarelight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94D2E006D8C4C01DD92843A6FD373186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Flarelight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BCDE1E85FD75D976235B1535F079754A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7AAA0E85E40ED735D6BCBF7A243C46 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD7CD67427965DD0020E9B92A42C909F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flarelight/Flarelight-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flarelight/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flarelight/Flarelight.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Flarelight;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC56EF64A8B7DB8F3951DD2A9CB12C5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A9BC416B649C6C78CB7574999FECD5BC /* Pods-Flarelight_Example.debug.xcconfig */;
 			buildSettings = {
@@ -599,9 +948,9 @@
 			};
 			name = Debug;
 		};
-		5F2ADFE547A2266395F318A91D1F47A9 /* Release */ = {
+		F4AB360525DB59147B4DEB6339453057 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 658B4C7F20157C6E1455BAEAC624EF00 /* Pods-Flarelight_Tests.release.xcconfig */;
+			baseConfigurationReference = 8E00A9078DF18ECEAEBD4E9BAC9D331F /* Pods-Flarelight_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -616,93 +965,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Flarelight_Tests/Pods-Flarelight_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_Flarelight_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6D545155182168A9A3D72BE25B10322C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Flarelight;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7DE68D001231D98892AA02722439D78F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D379EED702544535D21C263D9337AD38 /* Pods-Flarelight_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Flarelight_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Flarelight_Example/Pods-Flarelight_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Flarelight_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C87F24014A9B71FDCB209BCEE225724C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Flarelight;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		D01F115DA4560DDA5BF53C5E3A1C704D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Flarelight/Flarelight-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Flarelight/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Flarelight/Flarelight.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Flarelight;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -712,37 +979,27 @@
 			};
 			name = Debug;
 		};
-		ECCE029B465D2118CF5F344DD137BC46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53D8E4F6076052AA379842C2BAC427FE /* Flarelight.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Flarelight/Flarelight-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Flarelight/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Flarelight/Flarelight.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Flarelight;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0514ADEEE0CE94BDE945A7539677F615 /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC56EF64A8B7DB8F3951DD2A9CB12C5E /* Debug */,
+				40C6DC4C03CFC0FFAECEBC484D7E103B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124F07CE796F90688B7B987786B7EAEA /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4AB360525DB59147B4DEB6339453057 /* Debug */,
+				5BF57950DD4DF1C56575F3577B763895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -752,38 +1009,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3794A6AA4BA71B60C222B9B90F6605D0 /* Build configuration list for PBXNativeTarget "Flarelight" */ = {
+		4ECE11CB42972E5C6D9477FBD1E254BA /* Build configuration list for PBXNativeTarget "Flarelight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D01F115DA4560DDA5BF53C5E3A1C704D /* Debug */,
-				ECCE029B465D2118CF5F344DD137BC46 /* Release */,
+				CD7CD67427965DD0020E9B92A42C909F /* Debug */,
+				6DEB35084A93C1F616AF07F550EF582B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76093A14C6AC3A473723D97A2DFD54D4 /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Example" */ = {
+		56C6BD46666E229E58EB4DE87C682EC3 /* Build configuration list for PBXNativeTarget "Flarelight-Flarelight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5804BF92B9E90037E9A16CD89BEFB959 /* Debug */,
-				7DE68D001231D98892AA02722439D78F /* Release */,
+				256ABE7AA72779E60F69E2FFA345FF00 /* Debug */,
+				94D2E006D8C4C01DD92843A6FD373186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A959EBF4D078B9BEB9B1CB2DF2408451 /* Build configuration list for PBXNativeTarget "Flarelight-Flarelight" */ = {
+		8B2B2DA2F7F80D41B1FDB5FACFA4B3DE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C87F24014A9B71FDCB209BCEE225724C /* Debug */,
-				6D545155182168A9A3D72BE25B10322C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D6951460D57E9E4571B16D8C14822761 /* Build configuration list for PBXNativeTarget "Pods-Flarelight_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3BB5B23DCE247017638486DF19219930 /* Debug */,
-				5F2ADFE547A2266395F318A91D1F47A9 /* Release */,
+				51347C6CC43E058148BBA2D2833EC82A /* Debug */,
+				BCDE1E85FD75D976235B1535F079754A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

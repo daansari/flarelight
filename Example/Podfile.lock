@@ -1,14 +1,17 @@
 PODS:
-  - Flarelight (0.1.0)
+  - Alamofire (3.1.4)
+  - Flarelight (0.1.0):
+    - Alamofire (~> 3.1.4)
 
 DEPENDENCIES:
   - Flarelight (from `../`)
 
 EXTERNAL SOURCES:
   Flarelight:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Flarelight: 586a5ab177a9a25121a22eceeb720bd16a8ead8a
+  Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  Flarelight: 142c2e273ac85ce7b9c31635e7a4e6dc1bd0aaf6
 
 COCOAPODS: 0.39.0
